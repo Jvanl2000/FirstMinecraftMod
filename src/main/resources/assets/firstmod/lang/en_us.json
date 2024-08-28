@@ -1,4 +1,7 @@
 {
   "item.firstmod.alexandrite": "Alexandrite Gem",
-  "item.firstmod.raw_alexandrite": "Raw Alexandrite"
+  "item.firstmod.raw_alexandrite": "Raw Alexandrite",
+
+  "block.firstmod.alexandrite_block": "Alexandrite Block",
+  "block.firstmod.raw_alexandrite_block": "Raw Alexandrite Block"
 }
