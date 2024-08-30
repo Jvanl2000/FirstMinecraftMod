@@ -2,6 +2,15 @@
   "item.firstmod.alexandrite": "Alexandrite Gem",
   "item.firstmod.raw_alexandrite": "Raw Alexandrite",
 
+  "item.firstmod.chisel": "Chisel",
+
+  "block.firstmod.magic_block": "Magic Block",
+  "block.firstmod.heat_block": "Heat Block",
+
   "block.firstmod.alexandrite_block": "Alexandrite Block",
-  "block.firstmod.raw_alexandrite_block": "Raw Alexandrite Block"
+  "block.firstmod.raw_alexandrite_block": "Raw Alexandrite Block",
+  "block.firstmod.alexandrite_ore": "Alexandrite Ore",
+  "block.firstmod.deepslate_alexandrite_ore": "Deepslate Alexandrite Ore",
+
+  "creativetab.firstmod.alexandrite": "Alexandrite"
 }

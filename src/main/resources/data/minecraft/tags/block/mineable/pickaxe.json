@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "firstmod:alexandrite_block",
+    "firstmod:raw_alexandrite_block",
+    "firstmod:alexandrite_ore",
+    "firstmod:deepslate_alexandrite_ore",
+    "firstmod:magic_block",
+    "firstmod:heat_block"
+  ]
+}
