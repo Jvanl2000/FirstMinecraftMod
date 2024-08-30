@@ -18,8 +18,14 @@ This mod is programmed in Java 21 for Minecraft Forge 1.21.
 2. [Drop(s)](/src/main/resources/data/firstmod/loot_table/blocks/alexandrite_ore.json):
    - 100% chance to drop Alexandrite
      
-3. Required tool(s):
+3. Required Tool(s):
    - [Pickaxe](/src/main/resources/data/minecraft/tags/mineable/pickaxe.json) level [stone](/src/main/resources/data/minecraft/tags/needs_stone_tool.json) or higher
+
+4. Crafting Recipe:
+   - N/A
+  
+5. Apart of Recipe(s):
+   - N/A
 
 4. Description:
    - This ore drops a guaranteed 1 Raw Alexandrite when broken with a stone pickaxe ore better-level pickaxe. This block will also drop between 2 to 4 exp when broken. Raw Alexandrite from this block can be used in other recipes.
