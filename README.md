@@ -11,9 +11,6 @@ This mod is programmed in Java 21 for Minecraft Forge 1.21.
 ### Alexandrite Ore
 
 1. [Name](/src/main/resources/assets/firstmod/lang/en_us.json): Alexandrite Ore
-```json
-"block.firstmod.alexandrite_ore": "Alexandrite Ore"
-```
 
 2. [Drop(s)](/src/main/resources/data/firstmod/loot_table/blocks/alexandrite_ore.json):
    - 100% chance to drop Alexandrite
