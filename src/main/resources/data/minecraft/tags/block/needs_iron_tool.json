@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "firstmod:alexandrite_block",
-    "firstmod:raw_alexandrite_block"
+    "firstmod:raw_alexandrite_block",
+    "firstmod:hellstone_block",
+    "firstmod:cold_block"
   ]
 }

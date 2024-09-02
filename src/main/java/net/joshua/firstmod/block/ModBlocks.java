@@ -1,8 +1,8 @@
 package net.joshua.firstmod.block;
 
-import com.mojang.blaze3d.shaders.Uniform;
 import net.joshua.firstmod.FirstMod;
-import net.joshua.firstmod.block.custom.HeatBlock;
+import net.joshua.firstmod.block.custom.ColdBlock;
+import net.joshua.firstmod.block.custom.HellstoneBlock;
 import net.joshua.firstmod.block.custom.MagicBlock;
 import net.joshua.firstmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -41,9 +41,13 @@ public class ModBlocks {
             () -> new MagicBlock(BlockBehaviour.Properties.of()
                     .strength(2f).requiresCorrectToolForDrops()));
 
-    public static final RegistryObject<Block> HEAT_BLOCK = registerBlock("heat_block",
-            () -> new HeatBlock(BlockBehaviour.Properties.of()
-                    .strength(2f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> HELLSTONE_BLOCK = registerBlock("hellstone_block",
+            () -> new HellstoneBlock(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> COLD_BLOCK = registerBlock("cold_block",
+            () -> new ColdBlock(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

@@ -6,6 +6,7 @@
     "firstmod:alexandrite_ore",
     "firstmod:deepslate_alexandrite_ore",
     "firstmod:magic_block",
-    "firstmod:heat_block"
+    "firstmod:hellstone_block",
+    "firstmod:cold_block"
   ]
 }

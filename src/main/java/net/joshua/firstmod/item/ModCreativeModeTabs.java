@@ -27,7 +27,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get());
                         output.accept(ModItems.CHISEL.get());
                         output.accept(ModBlocks.MAGIC_BLOCK.get());
-                        output.accept(ModBlocks.HEAT_BLOCK.get());
+                        output.accept(ModBlocks.HELLSTONE_BLOCK.get());
+                        output.accept(ModBlocks.COLD_BLOCK.get());
 
 
                     })

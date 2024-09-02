@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "EUE",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:note_block"
+    },
+    "E": {
+      "item": "minecraft:ender_chest"
+    },
+    "U": {
+      "item": "minecraft:enchanting_table"
+    }
+  },
+  "result": {
+    "id": "minecraft:magic_block",
+    "count": 1
+  }
+}

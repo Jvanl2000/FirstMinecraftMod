@@ -5,7 +5,8 @@
   "item.firstmod.chisel": "Chisel",
 
   "block.firstmod.magic_block": "Magic Block",
-  "block.firstmod.heat_block": "Heat Block",
+  "block.firstmod.hellstone_block": "Hellstone Block",
+  "block.firstmod.cold_block": "Cold Block",
 
   "block.firstmod.alexandrite_block": "Alexandrite Block",
   "block.firstmod.raw_alexandrite_block": "Raw Alexandrite Block",
