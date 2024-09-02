@@ -1,23 +1,24 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "EUE",
-    "###"
-  ],
+  "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:note_block"
     },
-    "E": {
+    "C": {
       "item": "minecraft:ender_chest"
     },
-    "U": {
+    "E": {
       "item": "minecraft:enchanting_table"
     }
   },
+  "pattern": [
+    "###",
+    "CEC",
+    "###"
+  ],
   "result": {
-    "id": "minecraft:magic_block",
-    "count": 1
+    "count": 1,
+    "id": "firstmod:magic_block"
   }
 }

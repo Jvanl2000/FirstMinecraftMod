@@ -3,19 +3,18 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:packed_ice"
+      "item": "firstmod:alexandrite"
     },
-    "W": {
-      "item": "minecraft:water_bucket"
+    "S": {
+      "item": "minecraft:stick"
     }
   },
   "pattern": [
-    "###",
-    "#W#",
-    "###"
+    "#",
+    "S"
   ],
   "result": {
     "count": 1,
-    "id": "firstmod:cold_block"
+    "id": "firstmod:chisel"
   }
 }

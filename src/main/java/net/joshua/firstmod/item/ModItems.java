@@ -2,7 +2,9 @@ package net.joshua.firstmod.item;
 
 import net.joshua.firstmod.FirstMod;
 import net.joshua.firstmod.item.custom.ChiselItem;
+import net.joshua.firstmod.item.custom.CloakRelicItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Rarity;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -19,6 +21,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> CHISEL = ITEMS.register("chisel",
             () -> new ChiselItem(new Item.Properties().durability(32)));
+
+    public static final RegistryObject<Item> CLOAK_RELIC = ITEMS.register("cloak_relic",
+            () -> new CloakRelicItem(new Item.Properties().durability(32).rarity(Rarity.EPIC)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
